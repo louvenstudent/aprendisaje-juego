@@ -1,0 +1,607 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+nav {
+    background: rgb(126, 11, 188);
+    height: 80px;
+    width: 100%;
+
+} 
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 40px;
+    padding: auto;
+    
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav ul li {
+    display:inline-block;
+    line-height: 80px;
+    margin:  0 5px;
+}
+nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+/*Inicio*/
+.InicioClass {
+    padding-top: 100px;
+   
+}
+.pie  {
+    position: relative;
+    background-color:  rgb(32, 34, 80);
+    color: wheat;
+    padding: 20px;
+    width: 100%;
+}
+
+
+/*pie2*/
+.pie2 {
+    position: relative;
+    margin-top: 100px;
+    background-color: rgb(32, 34, 80);
+    color: wheat;
+    padding: 20px;
+    width: 100%;
+    
+
+}
+.pie2 div {
+    position: relative;
+    display: inline-block;
+    margin: 40px;
+    
+
+}
+/**/
+.imagenc {
+   position: relative;
+   margin: 40px;
+    
+}
+    
+
+
+.pie div {
+    position: relative;
+    display: inline-block;
+    margin: 40px;
+    
+
+}
+.InicioClass h2{
+    color: rgb(53, 53, 47);
+}
+.InicioClass h1{
+    color: rgb(53, 53, 47);
+}
+.InicioClass p {
+    font-family: cursive;
+}
+/*intruciones*/
+.instruc {
+    position: relative;
+    margin:40px;
+    
+}
+video {
+    position: relative;
+    left: 90px;
+}
+.index {
+    background-color: rgb(232, 200, 160);
+    min-height: 100vh;
+}
+.cuerpos {
+    position: relative;
+    width: 1100px;
+    height: 600px;
+    background-color: rgb(140, 189, 205);
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 200px;
+    
+}
+.barra-lateral {
+    position: relative;
+    float: right;
+    top:0px;
+}
+.libro {
+    position: absolute;
+    height: 600px;
+    width: 1060px;
+    top: -10px;
+    left: 180px;
+}
+.barra-lateral  ul li {
+    position: relative;
+    margin-top: 20px;
+    left:20px ;
+    height: 40px;
+
+}
+.fff {
+    position: relative;
+    left: 45px;
+}
+.www {
+    position: relative;
+    left: 240px;
+    top: 150px;
+    height: 220px;
+    width: 200px;
+}
+.www2{
+    position: absolute;
+    left: 60px;
+    top: 200px;
+    height: 220px;
+    width: 200px;
+}
+.eee {
+    position:absolute;
+    height: 500px;
+    width: 800px;
+    left: 140px;
+    top: 40px;
+}
+.rrr {
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    height: 100px;
+    width: 800px;
+}
+
+
+.atras2{
+    position: relative;
+    left: 300px;
+    top: -195px;
+    width: 70PX;
+    
+}
+.atras{
+    position: relative;
+    left: 300px;
+    top: -90px;
+    width: 70PX;
+    
+}
+.siguiente {
+    position: relative;
+    left: 1100px;
+    top: -135px;
+    width: 70PX;
+    height: 40px;
+}
+
+
+.siguiente2 {
+    position: relative;
+    left: 1100px;
+    top: -240px;
+    width: 70PX;
+    height: 40px;
+}
+.atras3{
+    position: relative;
+    left: 250px;
+    top: -195px;
+    width: 70PX;
+    
+}
+.siguiente3 {
+    position: relative;
+    left: 1100px;
+    top: -235px;
+    width: 70PX;
+    height: 40px;
+}
+.c2 {
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+.c2 p {
+    position: relative;
+    top: 10px;
+}
+.c2 p img {
+    position: relative;
+    margin-left: 80px;
+}
+.c2 h3{
+    position: relative;
+    display: inline-block; 
+    margin-top: 10px; 
+    
+    
+}
+.c2 p img {
+    position: relative;
+    height: 120px;
+}
+.t1, .t4  {
+    position: absolute;
+    right: 40px;
+}
+.t7{
+    position: absolute;
+    right: 60px;
+}
+.t3, .t6 {
+    position: absolute;
+    left: 110px;
+}
+.t9{
+    position: absolute;
+    left: 140px;
+}
+.t2 ,.t5,.t8{
+    position: relative;
+    left: 50px;
+}
+.www3{
+    position: absolute;
+    left: 300px;
+    top: 250px;
+    height: 220px;
+    width: 200px;
+}
+.contenedorDrag1 img {
+    height: 100px;
+    width: 107px;
+    margin-left: 80px; 
+}
+.box{
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+.contenedorDragDrop{
+    position: absolute;
+    top: 250px;
+    left: 70px;
+}
+.contenedorDragDrop div {
+    margin-left: 45px;
+}
+.contenedorDrag1 {
+    position: absolute;
+    top: 100px;
+    left: 110px;
+}
+.resorte {
+    position: absolute;
+    top: 0px;
+    left: 145px;
+    height: 600px;
+   
+}
+.barra-lateral  ul li a {
+    height: 40px;
+}
+.rectangulo2 , .rectangulo2-1{
+    position: relative;
+    width: 1050px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+.rectangulo2-1 div {
+    display: inline-block;
+    text-align: center;
+}
+.tabla1 {
+    position: relative;
+    top: 40px;
+    left: 110px;
+}
+.tabla1 h2 {
+    margin: 15px;
+    background-color: #63aac6;
+    width: 160px;
+    height: 43px;
+}
+.secion2t  {
+    position: relative;
+    top: 40px;    
+}
+.tabla1 tr td {
+    position: relative;
+    margin-top:80px ;
+}
+.tabla1 {
+    position: relative;
+    left: px;
+}
+.secion2{
+    position: relative;
+    left: 90px;
+    text-transform: initial;
+}
+
+
+
+.rectangulo3{
+    background-color: #63aac6;
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+    position: relative;
+    left: 220px;
+    top:45px;
+}
+.rectangulo3 h1 {
+    color: rgb(33, 30, 29);
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+.rectangulo3 p {
+    position: relative;
+    text-align: center;
+    top: 85px;
+}
+.rectangulo2 h1 {
+    position: absolute;
+    color: rgb(142, 60, 60);
+    
+    /*text-align: center;*/
+    top: 200px;
+    font-size: 80px;
+    left: 300px;
+    text-transform: capitalize;
+
+    
+}
+.cruerpo2{
+    
+    position: relative;
+    
+    /*background: url() no-repeat  ;*/
+    height: 100%;
+    background-position: center center;
+    
+    height: 100vh; 
+    
+}
+
+.video {
+    border-radius: 10px;
+}
+li a:hover{
+   /* maus color*/
+   background: rgb(161, 181, 188); 
+    transition: -5s;
+    
+    
+}
+/*
+li a.active {
+    background: rgb(37, 83, 127);
+}*/
+
+
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.cruerpo div.boton li a {
+    position: relative;
+    left: 700px;
+    justify-self: center;
+    color: #fff;
+    text-decoration: none;
+    background: #3088e0;
+    padding: 16px 37px;
+    border-radius: 50px;
+    top: 30px;
+    text-align: center;
+    
+    text-transform: uppercase;
+}
+.botonIn{
+    position: relative;
+    top: 100px;
+    float: right;
+    color: #fff;
+    margin-right: 70px;
+    text-transform: uppercase;
+    
+
+}
+
+.actividad{
+    color: #fff;
+    background-color: rgb(61, 126, 122);
+    padding: 16px 100px;
+    border-radius: 14px;
+}
+.instrucion{
+    position: absolute;
+    top:150px;
+    color: #fff;
+    background-color: rgb(61, 126, 122);
+    padding: 16px 90px;
+    border-radius: 14px;
+
+}
+.SubMenu li a:hover {
+    background: rgb(161, 181, 188); 
+    transition: -5s;
+}
+.SubMenu {
+    position: relative;
+    left: 90px;
+    top: 15px;
+    background: rgba(50, 61, 86, 0.3);
+    width: 40%;
+    display: none;
+    background-size: 50px 80px;
+    color: #fff;
+    
+}
+.SubMenu li a {
+    color: rgb(137, 85, 49);
+    
+    text-transform: uppercase;
+    
+}
+.botonIn li:hover .SubMenu{
+    display: block;
+
+}
+
+
+@media(max-width:952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:700px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(73, 106, 122);
+        top: 80px;
+        left: 100%;
+        text-align: center;
+        transition: all 01s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active1 {
+        background: none;
+        color: rgb(18, 11, 21);
+    }
+    
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+/*lenguaje */
+#checksub{
+    display: none;
+}
+/*juego 1*/
+.C{
+    background-color:rgb(183, 230, 163);
+    
+}
+.cuerpoju1{
+    position: relative;
+    top: 40px;
+    position: center center;
+    border-radius: 15px;
+    
+}
+.r {
+    background-color: rgba(142, 144, 148, 0.4);
+    height: 690;
+    width: 950px;
+    border-radius: 15px;
+}
+.cuerpoju1 h2 {
+    margin: 20px;
+    text-transform: uppercase;
+    text-decoration: dotted;
+    color: rgb(110, 73, 73);
+}
+.botonSiguiente1{
+    position: absolute;
+    text-transform: uppercase;
+    margin-top: 90px;
+    margin-left: 720px;
+    
+}
+.botonSiguiente1 li a {
+    color: #fff;
+    background: #3088e0;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+/*juego1.1*/
+.j{
+    position: relative;
+    margin-top: 80px;
+
+}
+
+.cuerpoF {
+    background:url(../IMA2/fondo3.jpg) no-repeat  ;
+    height: 1000;
+    width: 1000;
+    background-position: center center;
+    
+    border-radius: 10px;
+}
+
+.juego1-1 h2 {
+    position: relative;
+    margin: 20px;
+    text-transform: uppercase;
+    margin: 10px;
+    color: rgb(135, 74, 74);
+}
+.botonSiguiente2{
+    position: absolute;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 1000px;
+    
+}
+.botonSiguiente2 li a {
+    color: #fff;
+    background: #3088e0;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+
